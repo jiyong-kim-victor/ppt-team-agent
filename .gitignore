@@ -3,8 +3,9 @@
 .AppleDouble
 .LSOverride
 
-# Claude
-.claude/
+# Claude (settings, local state 제외, skills는 추적)
+.claude/*
+!.claude/skills/
 
 # Python
 __pycache__/
